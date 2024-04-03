@@ -45,7 +45,7 @@ In this chapter, we will learn how to navigate the command line on your machine.
 ## Next Steps
 Now that you've dipped your toes into the command line, let's dive deeper into navigation and common commands. Stay tuned for the next chapter! 🚀
 
-## Filesystem
+## 1 . Filesystem
 
 ### Directories
 
@@ -73,7 +73,7 @@ $ pwd
 
 This output indicates that the current working directory is `/c/Users/Aditya/AppData/Roaming/SPB_Data`, which is a folder within the Users directory.
 
-### Instructions
+###  Instructions
 
 1. Open the command line.
 2. Print the current working directory using the `pwd` command.
@@ -81,7 +81,7 @@ This output indicates that the current working directory is `/c/Users/Aditya/App
 What is the working directory in the command line right now?
 
 
-## Moving Day
+## 2 .  Moving Day
 
 ### Change Directory: `cd`
 
