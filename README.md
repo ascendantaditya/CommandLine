@@ -51,7 +51,7 @@ Now that you've dipped your toes into the command line, let's dive deeper into n
 
 Your computer's filesystem is essentially a structure of folders and files. In the context of the command line, folders are referred to as directories.
 
-![Filesystem diagram](filesystem_diagram.png)
+![Filesystem diagram](diagram.png)
 
 Inside any given directory, you may find:
 
