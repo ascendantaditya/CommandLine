@@ -93,11 +93,11 @@ $ cd directory-name
 
 Replace `directory-name` with the name of the directory you want to navigate to, making it the new current directory.
 
-For example, if your username is `dwight-schrute` and that's your current directory:
+For example, if your username is `SPB_Data` and that's your current directory:
 
 ```
 $ pwd
-/Users/dwight-schrute/
+/Users/SPB_Data/
 ```
 
 Your username directory contains more directories, including one for your computer's desktop. You can move to the Desktop directory using the `cd` command:
@@ -105,14 +105,14 @@ Your username directory contains more directories, including one for your comput
 ```
 $ cd Desktop
 $ pwd
-/Users/dwight-schrute/Desktop
+/c/Users/Aditya/AppData/Roaming/SPB_Data
 ```
 
 ### List Content: `ls`
 
 But how do you ensure that the directory you're navigating to exists? The `ls` command comes in handy to list all subdirectories and files under the current directory.
 
-Assuming we're in the `dwight-schrute` directory:
+Assuming we're in the `SPB_Data` directory:
 
 ```
 $ ls
@@ -131,7 +131,6 @@ For this chapter, we'll explore a `house` directory. [Download it here](https://
 
 1. Change into the `house` directory using the `cd` command.
 2. View all directories and files underneath. You should see:
-   ```
-    bedroom kitchen bathroom dining-room living-room
-
-   ```
+```
+bedroom kitchen bathroom dining-room living-room
+```
