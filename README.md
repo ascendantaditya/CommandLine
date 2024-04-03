@@ -44,3 +44,38 @@ In this chapter, we will learn how to navigate the command line on your machine.
 
 ## Next Steps
 Now that you've dipped your toes into the command line, let's dive deeper into navigation and common commands. Stay tuned for the next chapter! 🚀
+
+## Filesystem
+
+### Directories
+
+Your computer's filesystem is essentially a structure of folders and files. In the context of the command line, folders are referred to as directories.
+
+![Filesystem diagram](filesystem_diagram.png)
+
+Inside any given directory, you may find:
+
+- More directories (subdirectories)
+- Files containing various types of content (text, images, videos)
+
+### Print Working Directory: `pwd`
+
+Navigating the filesystem via the command line can be overwhelming at first. It's easy to get lost.
+
+The working directory represents your current location in the filesystem.
+
+The `pwd` command comes in handy to display the current working directory.
+
+```
+$ pwd
+/c/Users/Aditya/AppData/Roaming/SPB_Data
+```
+
+This output indicates that the current working directory is `/c/Users/Aditya/AppData/Roaming/SPB_Data`, which is a folder within the Users directory.
+
+### Instructions
+
+1. Open the command line.
+2. Print the current working directory using the `pwd` command.
+
+What is the working directory in the command line right now?
