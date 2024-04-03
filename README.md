@@ -134,3 +134,78 @@ For this chapter, we'll explore a `house` directory. [Download it here](https://
 ```
 bedroom kitchen bathroom dining-room living-room
 ```
+
+
+# 3 . House Tour
+
+## Traversing the Filesystem
+
+On the command line, typing `cd` followed by a valid directory name moves our current directory "forward" in the filesystem. 
+
+![Changing from one folder to another with the cd command](system.png)
+
+But that's not all the `cd` command can do! It can also be used to go "backward" in the filesystem, using two periods. Assuming we're currently on the Desktop directory, here's what this looks like:
+
+```
+$ pwd
+/Users/dwight-schrute/schrute-farms
+$ cd ..
+$ pwd
+/Users/dwight-schrute/
+```
+
+Using the `..` double-dot syntax moves us back, or up one level, in our filesystem.
+
+Even so, navigating one directory at a time can get tiring quickly. In this case, we use a forward slash `/` to move up or down multiple directories in a single command:
+
+```
+$ cd ../..
+$ pwd
+/Users/
+```
+
+## Viewing File Content
+
+If we want to see what is inside of a file (like a text-based .txt file or a Python .py file), we can do so with the `cat` command!
+
+```
+$ pwd
+/Users/dwight-schrute/schrute-farms/
+$ cat beets.txt
+I have 100 beets!
+```
+
+The `cat` command will print all text-based content from a file to the command line.
+
+Note: The `echo` command can also be used for viewing file content, but the `cat` command is more commonly used.
+
+## Instructions
+
+Let's practice changing between directories by "touring" the house directory we downloaded earlier!
+
+1. From the house directory, change into the kitchen directory.
+2. Use the `ls` command to view the content within the directory.
+3. Where is the peanut butter jar and the jelly in this kitchen to make a PB&J? Use the `cat` command to find out!
+4. Now, use the double period `..` syntax to change back into the main house directory.
+
+Here is a diagram of how the house directory and its contents are organized:
+
+```
+house/
+  ├── bathroom/
+  │      └── closet/
+  │            └── items.txt
+  ├── bedroom/
+  │      └── closet/
+  │            └── items.txt
+  ├── dining-room/
+  │      └── cabinet/
+  ├── kitchen/
+  │      ├── fridge/
+  │      │     └── fridge-items.txt
+  │      └── pantry/
+  │            └── pantry-items.txt
+  └── living-room/
+       └── shelf/
+             └── books.txt
+```
