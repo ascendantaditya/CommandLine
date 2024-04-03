@@ -79,3 +79,59 @@ This output indicates that the current working directory is `/c/Users/Aditya/App
 2. Print the current working directory using the `pwd` command.
 
 What is the working directory in the command line right now?
+
+
+## Moving Day
+
+### Change Directory: `cd`
+
+Now that we know how to open the command line and view the current directory within our computer's filesystem, let's explore how to navigate through it using the `cd` (change directory) command.
+
+```
+$ cd directory-name
+```
+
+Replace `directory-name` with the name of the directory you want to navigate to, making it the new current directory.
+
+For example, if your username is `dwight-schrute` and that's your current directory:
+
+```
+$ pwd
+/Users/dwight-schrute/
+```
+
+Your username directory contains more directories, including one for your computer's desktop. You can move to the Desktop directory using the `cd` command:
+
+```
+$ cd Desktop
+$ pwd
+/Users/dwight-schrute/Desktop
+```
+
+### List Content: `ls`
+
+But how do you ensure that the directory you're navigating to exists? The `ls` command comes in handy to list all subdirectories and files under the current directory.
+
+Assuming we're in the `dwight-schrute` directory:
+
+```
+$ ls
+Desktop
+Documents
+Images
+script.js
+dundie-awards.txt
+```
+
+Running `ls` shows three subdirectories (Desktop, Documents, and Images) as well as two files (script.js and dundie-awards.txt).
+
+### Instructions
+
+For this chapter, we'll explore a `house` directory. [Download it here](https://drive.google.com/u/0/uc?id=1pQ0gfmyBeSIZ-27W-_DB-GFGOfWOLsNW&export=download), save it to your desktop, and unzip the folder.
+
+1. Change into the `house` directory using the `cd` command.
+2. View all directories and files underneath. You should see:
+   ```
+    bedroom kitchen bathroom dining-room living-room
+
+   ```
