@@ -7,6 +7,8 @@ Welcome to the Command Line Basics course! 🖥️ This guide will introduce you
 The command line interface (CLI) has been around since the 1970s, providing users with a text-based method to interact with computer systems. Despite the rise of graphical user interfaces (GUI) in the 80s and 90s, the command line remains popular, especially among developers.
 
 On your computer:
+
+![Command Line Icon](commandline.png)
 - On Mac, the command line is known as the Terminal.
 - On Windows, it is known as the Command Prompt (or "CMD" for short).
 
