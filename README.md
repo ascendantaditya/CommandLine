@@ -209,3 +209,53 @@ house/
        └── shelf/
              └── books.txt
 ```
+
+
+
+
+
+---
+
+# 4 . Clean Slate
+
+## Clearing the Command Line
+
+Phew! We've done a lot of typing on the command line already! And have you noticed that if you scroll up you can see all the commands you previously ran?
+
+While this may not bother some, you may be wondering if there is a way to "clean the slate" and clear the command line. Well there is!
+
+The `clear` command will clear everything from view on the command line. However, you can still see your previous command by scrolling up.
+
+## Keyboard Shortcuts
+
+As you can imagine, the command line is mostly worked with a keyboard. While you've already learned about and run a few awesome commands, there are some keyboard shortcuts you should try that do similar things.
+
+### Command History
+
+One of the most helpful shortcuts is using your keyboard's ↑ and ↓ arrow keys to automatically bring up commands you'd previously written.
+
+This is a total game-changer and time-saver. Instead of typing or retyping a command, you can simply just bring it back with this shortcut!
+
+### Tab
+
+There is also a keyboard shortcut for completing what you type on the command line!
+
+When typing on the command line, the `tab` key can be used for auto-completing the names of things such as:
+
+- Other command line commands.
+- The name of an existing file or directory.
+
+This shortcut can be really nifty for reducing errors.
+
+## Instructions
+
+While inside the `house` directory, let's try out some of what we learned!
+
+1. Go ahead and change into the `living-room` directory, then into the `shelf` directory.
+2. Next, view the contents of the `books.txt` file.
+3. Then, change back into the `house` directory.
+4. Now, clear the command line screen with the `clear` command!
+
+---
+
+
